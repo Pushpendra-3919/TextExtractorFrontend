@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { useDropzone } from "react-dropzone";
 import axios from "axios";
+
 import { CloudUpload, FileText, XCircle, CheckCircle } from "lucide-react";
+import { API_URL } from "../../config";
 
 export default function FileUploader() {
   const [files, setFiles] = useState([]);

@@ -1,5 +1,7 @@
 import React from "react";
 import FileUploader from "./components/FileUploader";
+
+
 function App() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-200 p-5">
